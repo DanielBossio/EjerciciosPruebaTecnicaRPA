@@ -26,5 +26,7 @@ def sumaserienum(numero=3, terminos=5):
     suma += termino
   return suma
 
-sumaserienum(5, 3)
+print(sumaserienum(5, 3))
+
+print(sumaserienum(3, 5))
 
