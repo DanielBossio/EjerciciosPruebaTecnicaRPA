@@ -34,5 +34,6 @@ def revisionlista(lista: list):
     if (x % 5 == 0) and (x < 600): resp.append(x)
   return resp
 
-revisionlista([24, 150, 300, 660, 295, 1050, 50])
+print(revisionlista([24, 150, 300, 660, 295, 1050, 50]))
 
+print(revisionlista([110, 720, 307, 555, 1095, 12, 300, 1000]))
