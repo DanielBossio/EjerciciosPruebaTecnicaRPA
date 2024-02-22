@@ -139,9 +139,11 @@ while True:
     op = int(input())
     if op not in (1, 2, 3): print("Opcion no valida. Por favor ingrese una de las opciones mostradas.\n")
     elif op == 1:
+      #Agregar producto
       agregarProducto(inventario)
     elif op == 2:
+      #Ver inventario de producto
       verInventario(inventario)
-    elif op == 3: break
+    elif op == 3: break #Terminar ejecución del programa
   if op == 3: break
 
