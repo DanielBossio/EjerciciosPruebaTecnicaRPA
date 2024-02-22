@@ -30,7 +30,6 @@ def agruparlista(lista: list):
     resp.append([x for i in range(lista.count(x))])
   return resp
 
-agruparlista([12, 25, 1, 1, 7, 25])
+print(agruparlista([12, 25, 1, 1, 7, 25]))
 
-agruparlista([6, 7, 8, 9])
-
+print(agruparlista([6, 7, 8, 9]))
